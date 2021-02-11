@@ -20,6 +20,27 @@ body {
 .item1 {
   grid-area: header;
 }
+body {
+  background-image: url("Putrajaya.jpg");
+  background-attachment: fixed;
+}
+
+.container2 {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto-fill 50px;
+  grid-template-columns: 6fr 1fr;
+  grid-gap: 5px;
+  grid-template-areas:
+  'header header'
+  'faq faq'
+  'footer footer';
+}
+
+
+.item1 {
+  grid-area: header;
+}
 
 .faq {
   grid-area: faq;
@@ -144,10 +165,13 @@ div p {
 
 .faqDetails li h5 {
   font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .faqDetails li p {
   font-size: 30px;
+  margin-bottom: 10px;
 }
 
 /* button */
