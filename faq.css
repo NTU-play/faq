@@ -1,4 +1,3 @@
-
 body {
   background-image: url("Putrajaya.jpg");
   background-attachment: fixed;
@@ -7,27 +6,6 @@ body {
 hr {
   margin-bottom: 0px;
   margin-top: 0px;
-}
-
-.container2 {
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 1fr auto-fill 50px;
-  grid-template-columns: 6fr 1fr;
-  grid-gap: 5px;
-  grid-template-areas:
-  'header header'
-  'faq faq'
-  'footer footer';
-}
-
-
-.item1 {
-  grid-area: header;
-}
-body {
-  background-image: url("Putrajaya.jpg");
-  background-attachment: fixed;
 }
 
 .container2 {
