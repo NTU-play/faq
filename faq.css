@@ -260,8 +260,6 @@ div p {
   }
 
   .container {
-    max-width: 1280px;
-    max-height: 720px;
     grid-template-rows: 1fr auto-fill 50px;
     grid-template-areas:
     'header'
